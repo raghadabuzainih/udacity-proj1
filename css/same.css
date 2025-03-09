@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #92b5b8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 30%;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        color: #d0fff0;
+        font-weight: bold;
+    }
+}
+
+#home, #contact{
+    background-image: url('/images/clinic.jpg');
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+
+#home div, #contact h1{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+}
+
+button{
+    width: 50%;
+    height: 150%;
+    justify-self: center;
+    background-color: #92b5b8;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #3dadba;
+}
