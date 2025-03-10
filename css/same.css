@@ -16,7 +16,7 @@ nav{
 
 ul{
     display: flex;
-    gap: 30%;
+    gap: 1rem;
     list-style: none;
 }
 
@@ -61,4 +61,16 @@ footer{
     width: 100%;
     text-align: center;
     background-color: #3dadba;
+}
+
+@media(max-width: 1024px) {
+    header{
+        padding: 0 2rem;
+    }
+    nav h2{
+        padding-left: 1rem;
+    }
+    ul{
+        padding-right: 1rem;
+    }
 }

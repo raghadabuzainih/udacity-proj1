@@ -60,6 +60,7 @@ em{
 @media(max-width: 1024px) {
     #services{
         flex-wrap: wrap;
+        text-align: start;
     }
     .card{
         margin-bottom: 1rem;

@@ -45,4 +45,10 @@ footer{
     form{
         height: 20.5rem;
     }
+    #info{
+        display: grid;
+        justify-items: center;
+        align-content: center;
+        text-align: center;
+    }
 }
