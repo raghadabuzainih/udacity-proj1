@@ -1,14 +1,16 @@
 #services{
-    position: absolute;
-    top: 75%;
+    margin-top: 3rem;
+    margin-left: 3.4rem;
     display: grid;
-    justify-items: center;
-    left: 25%;
+    text-align: center;
+    justify-content: center;
 }
 
 #cards{
     display: flex;
-    gap: 2%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
 }
 
 .card{
@@ -33,47 +35,34 @@
 #about{
     display: grid;
     justify-items: center;
-    position: absolute;
-    top: 114%;
+    margin-top: 1rem;
 }
 
-#about img{
-    width: 30%;
+figure img{
+    width: 32%;
 }
 
 #about div{
     display: flex;
+    gap: 1%;
     margin: 0 5%;
-    gap: 3%;
-    align-items: center;
 }
 
 article{
-    font-size: 100%;
+    font-size: 110%;
+    margin-left: -70%;
 }
 
 em{
     color: #15805e;
 }
 
-footer{
-    position: absolute;
-    bottom: -66%
-}
-
 @media(max-width: 1024px) {
     #services{
-        left: 14%;
-        justify-items: center;
-    }
-    #cards{
         flex-wrap: wrap;
     }
     .card{
-        margin-bottom: 3%;
-    }
-    #about{
-        top: 130%;
+        margin-bottom: 1rem;
     }
     #about div{
         display: grid;
@@ -81,7 +70,10 @@ footer{
     #about img{
         width: 100%;  
     }
+    article{
+        margin-left: 0;
+    }
     footer{
-        bottom: -156%;
+        margin-top: 3rem;
     }
 }

@@ -1,11 +1,5 @@
-/* #contact h1{
-    top: 35%;
-    justify-self: center;
-} */
-
 #info{
-    position: relative;
-    top: 35rem;
+    margin-top: 3rem;
     display: flex;
     gap: 2%;
     width: 100%;
@@ -44,8 +38,7 @@ textarea{
 }
 
 footer{
-    position: absolute;
-    bottom: -37%
+    margin-top: 5rem;
 }
 
 @media(max-width: 1024px){
